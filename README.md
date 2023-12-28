@@ -1,3 +1,13 @@
+Version one of a complete Pizza ordering application. Users are able to log into the website and order a pizza with whatever toppings they like and an employee that is logged into the system can see and start to process the order.
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
