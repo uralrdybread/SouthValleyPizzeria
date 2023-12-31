@@ -1,4 +1,71 @@
-Version one of a complete Pizza ordering application. Users are able to log into the website and order a pizza with whatever toppings they like and an employee that is logged into the system can see and start to process the order.
+# Pizza Ordering Application
+
+This project showcases a fully functional pizza ordering application developed using PHP, Laravel, and a MySQL database. As my inaugural project with Laravel, it served as an opportunity to familiarize myself with the framework, specifically in bridging the front-end and back-end database functionalities.
+
+### Features:
+
+**User-Friendly Interface:**
+
+* The front page features a welcoming screen with a straightforward button to initiate a pizza order.
+
+**Order Customization:**
+
+* Users can easily customize their pizza orders by selecting toppings, pizza options, and entering their name.
+
+**Order Completion Message:**
+
+* Upon completing a pizza order, regular users are seamlessly redirected to the home page with a success message indicating the order was received.
+
+**Admin Dashboard:**
+
+* Admin users enjoy a dedicated dashboard where they can view all pizza orders in the queue.
+
+**Detailed Order View:**
+
+* Clicking on a pizza order name reveals a detailed list of toppings and specifications.
+
+**Order Management:**
+
+Admins have the authority to complete or remove orders directly from the database table.
+
+**Versatile Application Use:**
+
+* This application is versatile and could be employed for both pre-orders and deliveries.
+
+### Technology Stack:
+
+**Laravel Framework:**
+
+* Leveraged Laravel/UI through Vue addon for simplified authentication and an efficient creation process.
+
+**Database Security:**
+
+* User passwords are automatically hashed and securely stored in the database.
+
+**Password Recovery:**
+
+* Implemented a hassle-free password recovery feature for users who may forget their credentials.
+
+Explore the codebase to discover how the front-end and back-end seamlessly interact in this Laravel-powered pizza ordering application.
+
+![homepage](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/1841819f-cd92-4cdb-b6bd-6e170ede602b)
+
+![login](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/a6936a81-3dbc-4e85-a521-81cd13fa2f30)
+
+![loggedin](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/79faac78-6780-4493-9ac8-67827262e69f)
+
+![orderrecieved](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/e695da15-5860-4336-a02d-3ec29b2e5389)
+
+![pizzaorderscreen](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/13ebd156-ffef-4545-bf59-17c56689608b)
+
+![pizzaque1](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/0119198f-1a1f-4062-9905-32fbbe1a8873)
+
+![pizzaque2](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/41a473c4-a1ce-4fab-8317-9a87ef22e95c)
+
+![forgotpassword](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/610b0e5e-08be-4920-b1ca-ce34734b311c)
+
+![pizzatable](https://github.com/uralrdybread/SouthValleyPizzeria/assets/48900828/2df96415-04d1-4668-b470-7b3fe247e2f3)
+
 
 
 
