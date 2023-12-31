@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="wrapper create-pizza">
+<div class="wrapper create-pizza container">
     <h1>Create a new pizza</h1>
     <form action="/pizzas" method="POST">
         @csrf
-        <label for="name">Your name:</label>
-        <input type="text" id="name" name="name">
+        <label for="name" class="">Your name:</label>
+        <input type="text" id="name" name="name" class="">
         <label for="type">Choose pizza type: </label>
-        <select name="type" id="type">
+        <select name="type" id="type" class="dropdown">
             <option value="margherita">Margherita</option>
             <option value="hawaiian">Hawaiian</option>
             <option value="veg supreme">Veg Supreme</option>
@@ -22,11 +22,11 @@
             <option value="thick">Thick</option>
         </select>
         <fieldset>
-            <label>Extra toppings:</label>
-            <input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms<br />
-            <input type="checkbox" name="toppings[]" value="peppers">Peppers<br />
-            <input type="checkbox" name="toppings[]" value="garlic">Garlic<br />
-            <input type="checkbox" name="toppings[]" value="olives">Olives<br />
+            <label>Extra toppings:</label><br>
+            <input class="form-check-input" type="checkbox" name="toppings[]" value="mushrooms"> Mushrooms<br />
+            <input class="form-check-input" type="checkbox" name="toppings[]" value="peppers"> Peppers<br />
+            <input class="form-check-input" type="checkbox" name="toppings[]" value="garlic"> Garlic<br />
+            <input class="form-check-input" type="checkbox" name="toppings[]" value="olives"> Olives<br />
 
         </fieldset>
         <input type="submit" value="Order Pizza">
